@@ -1,0 +1,28 @@
+/* gallery.css */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.drawing {
+    text-align: center;
+    width: 200px;
+}
+
+.drawing-thumbnail {
+    width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.drawing-thumbnail:hover {
+    transform: scale(1.1);
+}

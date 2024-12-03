@@ -1,0 +1,101 @@
+/* styles.php */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    text-align: center;
+}
+
+#canvas {
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #000;
+    background-color: #fff;
+}
+
+.controls {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.controls label {
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+/* Modal (popup) styles */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed position relative to the screen */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    z-index: 9999; /* Make sure it’s above other content */
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Modal content (form and close button) */
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    width: 300px; /* You can adjust the size */
+}
+
+/* Form elements inside the modal */
+.modal-content input {
+    margin: 10px 0; /* Space between inputs */
+    padding: 10px; /* Space inside the input box */
+    width: 80%; /* Adjust width to make it smaller or larger */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Ensure padding does not affect the width */
+}
+
+/* Button styles */
+.modal-content button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.modal-content button:hover {
+    background-color: #45a049;
+}
+
+/* Close button */
+#closeModal {
+    padding: 8px 16px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#closeModal:hover {
+    background-color: #e53935;
+}
+
